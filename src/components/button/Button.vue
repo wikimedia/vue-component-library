@@ -46,13 +46,13 @@ export default defineComponent( {
 	emits: [ 'click' ],
 	setup( props, { emit } ) {
 		const rootClasses = () => ( {
-			'wvui-button--action-default': props.action === 'default',
-			'wvui-button--action-progressive': props.action === 'progressive',
-			'wvui-button--action-destructive': props.action === 'destructive',
-			'wvui-button--type-primary': props.type === 'primary',
-			'wvui-button--type-normal': props.type === 'normal',
-			'wvui-button--type-quiet': props.type === 'quiet',
-			'wvui-button--framed': props.type !== 'quiet'
+			'cdx-button--action-default': props.action === 'default',
+			'cdx-button--action-progressive': props.action === 'progressive',
+			'cdx-button--action-destructive': props.action === 'destructive',
+			'cdx-button--type-primary': props.type === 'primary',
+			'cdx-button--type-normal': props.type === 'normal',
+			'cdx-button--type-quiet': props.type === 'quiet',
+			'cdx-button--framed': props.type !== 'quiet'
 		} );
 
 		const onClick = ( event: Event ) => {
