@@ -2,7 +2,7 @@
 	"name": "vue-components",
 	"scripts": {
 		"lint": "eslint --max-warnings 0",
-		"test": "yarn run lint",
+		"test": "npm run lint",
 		"dev": "vite",
 		"build": "vite build",
 		"serve": "vite preview"
