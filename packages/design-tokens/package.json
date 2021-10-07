@@ -11,7 +11,7 @@
 	},
 	"scripts": {
 		"build": "yarn run clean && yarn run build:tokens",
-		"build:tokens": "style-dictionary build -c ./.style-dictionary/config.js",
+		"build:tokens": "node ./.style-dictionary/config.js",
 		"clean": "rm -rf ./dist",
 		"test:unit": "jest ."
 	},
