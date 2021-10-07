@@ -3,7 +3,20 @@
 	"author": "Wikimedia Foundation",
 	"description": "Design tokens for Codex in different formats",
 	"license": "BSD-3-Clause",
+	"files": [
+		"dist"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"scripts": {
+		"build": "yarn run clean && yarn run build:tokens",
+		"build:tokens": "style-dictionary build -c ./.style-dictionary/config.js",
+		"clean": "rm -rf ./dist",
+		"test:unit": "jest ."
+	},
 	"devDependencies": {
+		"jest": "^27.2.4",
 		"style-dictionary": "^3.0.2"
 	}
 }
