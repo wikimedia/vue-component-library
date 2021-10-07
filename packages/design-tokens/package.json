@@ -1,3 +1,9 @@
 {
-	"name": "design-tokens"
+	"name": "design-tokens",
+	"author": "Wikimedia Foundation",
+	"description": "Design tokens for Codex in different formats",
+	"license": "BSD-3-Clause",
+	"devDependencies": {
+		"style-dictionary": "^3.0.2"
+	}
 }
