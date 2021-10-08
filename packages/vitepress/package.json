@@ -13,6 +13,9 @@
 		"docs:dev": "concurrently \"vue-docgen --watch\" \"vitepress dev docs\"",
 		"docs:build": "vue-docgen && vitepress build docs"
 	},
+	"dependencies": {
+		"vue": "^3.2.19"
+	},
 	"devDependencies": {
 		"@vitejs/plugin-vue": "^1.9.3",
 		"concurrently": "^6.3.0",
@@ -22,8 +25,5 @@
 		"vite": "^2.6.5",
 		"vitepress": "^0.20.0",
 		"vue-docgen-cli": "^4.41.2"
-	},
-	"peerDependencies": {
-		"vue": "^3.2.19"
 	}
 }
