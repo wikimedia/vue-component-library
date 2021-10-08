@@ -33,6 +33,16 @@ grab the demo file, add some things that are pulled from the component Vue code
 (page title, description, meta info, usage docs, etc.), and place the generated
 file in `docs/components/`.
 
+#### Importing components
+
+You can import components directly from the `vue-components` package:
+
+```
+<script setup>
+import { CdxButton } from 'vue-components';
+</script>
+```
+
 #### Formatting component demos
 
 A `Wrapper` component is available in all markdown files that provides some

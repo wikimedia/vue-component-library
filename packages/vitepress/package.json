@@ -14,7 +14,8 @@
 		"docs:build": "vue-docgen && vitepress build docs"
 	},
 	"dependencies": {
-		"vue": "^3.2.19"
+		"vue": "^3.2.19",
+		"vue-components": "*"
 	},
 	"devDependencies": {
 		"@vitejs/plugin-vue": "^1.9.3",

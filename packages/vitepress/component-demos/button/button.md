@@ -1,6 +1,5 @@
 <script setup>
-// TODO: Set vue-components as a dependency so we ditch the relative filepath
-import CdxButton from '../../../vue-components/src/components/button/Button.vue';
+import { CdxButton } from 'vue-components';
 </script>
 
 ## Demos
