@@ -8,10 +8,10 @@ sidebarDepth: 3
 
 A button wrapping slotted content.
 
-<a href="https://github.com/wikimedia/vue-component-library/edit/main/vitepress/docs/../vue-components/src/components/button/Button.md" class="docgen-edit-link"></a>
+<a href="https://github.com/wikimedia/design-codex/edit/main/vitepress/docs/component-demos/button/button.md" class="docgen-edit-link"></a>
 
 <script setup>
-// TODO: Is there any way around this import being relative to the docs dir?
+// TODO: Set vue-components as a dependency so we ditch the relative filepath
 import CdxButton from '../../../vue-components/src/components/button/Button.vue';
 </script>
 

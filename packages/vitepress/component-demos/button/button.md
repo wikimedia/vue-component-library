@@ -1,5 +1,5 @@
 <script setup>
-// TODO: Is there any way around this import being relative to the docs dir?
+// TODO: Set vue-components as a dependency so we ditch the relative filepath
 import CdxButton from '../../../vue-components/src/components/button/Button.vue';
 </script>
 
