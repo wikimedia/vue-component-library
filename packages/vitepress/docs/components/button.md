@@ -8,7 +8,7 @@ sidebarDepth: 3
 
 A button wrapping slotted content.
 
-<a href="https://github.com/wikimedia/vue-component-library/edit/main/docs/docs/../vue-components/src/components/button/Button.md" class="docgen-edit-link"></a>
+<a href="https://github.com/wikimedia/vue-component-library/edit/main/vitepress/docs/../vue-components/src/components/button/Button.md" class="docgen-edit-link"></a>
 
 <script setup>
 // TODO: Is there any way around this import being relative to the docs dir?

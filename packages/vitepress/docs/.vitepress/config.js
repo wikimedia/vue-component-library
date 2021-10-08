@@ -4,9 +4,8 @@ module.exports = {
 	description: 'Toolkit for building user interfaces within the Wikimedia Design System',
 
 	themeConfig: {
-		// TODO: update once codex repo exists
-		repo: 'wikimedia/vue-component-library',
-		docsDir: 'docs',
+		repo: 'wikimedia/design-codex',
+		docsDir: 'vitepress/docs',
 		lastUpdated: 'Last updated',
 	
 		sidebar: {
