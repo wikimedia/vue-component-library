@@ -5,7 +5,7 @@
 In the root of the Codex monorepo, run:
 
 ```
-npm run docs:dev -w vitepress
+npm run docs
 ```
 
 This will both serve the VitePress site locally at http://localhost:3000 and
