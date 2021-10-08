@@ -6,6 +6,10 @@
 	"workspaces": [
 		"packages/*"
 	],
+	"engines": {
+		"npm": ">=7",
+		"node": ">=12"
+	},
 	"scripts": {
 		"test": "npm run test --workspaces --if-present"
 	}
