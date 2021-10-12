@@ -38,7 +38,7 @@ To contact us or to learn more about current and future work, visit our [task tr
 
 #### Set high accessibility, internationalization, and browser/device coverage standards
 
-Wikimedia intends to serve every human being, eventually. We will follow [Wikimedia's accessibility principles](https://design.wikimedia.org/style-guide/design-principles_accessibility.html) and aim to support many languages.
+Wikimedia intends to serve everyone. We will follow [Wikimedia's accessibility principles](https://design.wikimedia.org/style-guide/design-principles_accessibility.html) and aim to support many languages.
 
 We will adhere to MediaWiki's [browser support matrix](https://www.mediawiki.org/wiki/Compatibility#Browsers).
 Components should be thoughtfully designed and developed to work across device widths.
@@ -53,10 +53,11 @@ expanding this ecosystem.
 To keep our code flexible, we will aim to avoid entirely MediaWiki-specific components. When they
 can't be avoided, we will clearly denote and separate out the MediaWiki-specific parts.
 
-#### Prioritize end-user developer experience
+#### Prioritize developer experience of library users
 
 We want to make building user interfaces straightforward, fast, and enjoyable. We aim to serve users
-of varying experience levels and to reduce barriers to onboarding new users.
+of varying experience levels and to reduce barriers to onboarding new users. When possible, we will
+prefer to house complexity in the library code rather than exposing it to the library user.
 
 ### Collaboration principles
 
@@ -67,7 +68,7 @@ working on and how we're prioritizing that work.
 
 #### Enable rather than enforce
 
-The Codex maintainers welcome contributions from others and wish to collaboratively build
+The Codex maintainers welcome contributions from everyone and wish to collaboratively build
 resources to enable others to easily contribute to the library.
 
 #### Knowledge sharing rather than knowledge silos
@@ -95,4 +96,4 @@ maintain.
 
 The template within [single file Vue components (SFCs)](https://v3.vuejs.org/guide/single-file-component.html#introduction)
 can be a tool to clearly illustrate what a component is and does. Consider moving everything but the
-most basic JavaScript code to the script tag.
+most basic JavaScript code to the `<script>`.
