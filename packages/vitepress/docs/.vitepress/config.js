@@ -40,7 +40,8 @@ module.exports = {
 				{
 					text: 'ADRs',
 					children: [
-						{ text: 'Introduction', link: '/adrs/introduction' }
+						{ text: 'Introduction', link: '/adrs/introduction' },
+						{ text: 'ADR 02 - Demo tool', link: '/adrs/02-adr-demo-tool' }
 					]
 				}
 			]
