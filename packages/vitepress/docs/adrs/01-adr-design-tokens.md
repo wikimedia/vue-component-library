@@ -8,13 +8,13 @@ accepted
 
 ## Context
 
-Design tokens are values that represent the style of the design systems and its UI elements. They are organized in a way that makes it easy to maintain a scalable and consistent visual system for UI development.
+Design tokens are values that represent the style of the design system and its UI elements. They are organized in a way that makes it easy to maintain a scalable and consistent visual system for UI development.
 Most of the current and legacy design decisions are kept in [wikimedia-ui-base.css](https://gerrit.wikimedia.org/r/plugins/gitiles/wikimedia-ui-base/+/fa1e8c2/wikimedia-ui-base.css), in a technology-specific format. They are also available in `.less`.
 
 For Codex:
-- we also want to keep providing the design styles separately from the UI elements
-- we want the tokens to be the source of truth for all vue components
-- we want to provide the tokens in different output formats
+- We also want to keep providing the design styles separately from the UI elements
+- We want the tokens to be the source of truth for all Vue components
+- We want to provide the tokens in different output formats
 
 ## Considered Actions
 
@@ -29,13 +29,13 @@ This option means specifying tokens in a format understood by CSS, Less or Scss.
 
 #### Downsides
 
-* no native support for structure - one has to decode the structure form the name of the variables
-* entails manual work to support several output formats
-* limited possibilities of providing specific information about the tokens
+* No native support for structure - one has to decode the structure from the name of the variables
+* Entails manual work to support several output formats
+* Limited possibilities of providing specific information about the tokens
 
 ### Technology-agnostic token definition 
 
-This option means specifying tokens in a generic format (e.g. JSON/YML) which have to be converted to files as understood by specific technology (css, less, scss etc.)
+This option means specifying tokens in a generic format (e.g. JSON/YML) which have to be converted to files as understood by specific technology (CSS, Less, Scss etc.)
 
 #### Advantages
 
