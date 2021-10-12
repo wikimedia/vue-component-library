@@ -16,7 +16,7 @@ Contributions to Codex are covered by the [MediaWiki Code of Conduct](https://ww
 To keep all those interested in using or contributing to Codex up-to-date on topics of design,
 development, roadmaps, and releases, the Design Systems Team will:
 
-- Use the [Codex workboard](https://phabricator.wikimedia.org/project/view/5546/) in Phabricator to
+- Use the [Codex workboard](https://phabricator.wikimedia.org/project/board/5587/) in Phabricator to
   publicly track the work, giving others the opportunity to subscribe to tasks, add comments, or
   claim tasks.
 - Keep our [team page](https://www.mediawiki.org/wiki/Design_Systems_Team) up-to-date with information about our work and how to contact us
@@ -28,7 +28,7 @@ development, roadmaps, and releases, the Design Systems Team will:
 
 ## Task tracking
 
-Work on the library is tracked on the [Codex workboard](https://phabricator.wikimedia.org/project/view/5546/)
+Work on the library is tracked on the [Codex workboard](https://phabricator.wikimedia.org/project/board/5587/)
 in Phabricator.
 
 > I want to know the status of something
@@ -39,7 +39,7 @@ that represents its current status. If not, you can add a task (see below) or co
 
 > I want to request a feature
 
-You are welcome to add new tasks with the `Design-systems-team (Codex)` tag. New tasks will go into
+You are welcome to add new tasks with the `Codex` tag. New tasks will go into
 our backlog column and will be triaged regularly. Please remember that Codex is maintained by a
 nonprofit—we won't be able to meet all feature requests, and it might take time to get to your
 request.
